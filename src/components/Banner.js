@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Web Developer", "Web Developer", "Web Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -61,7 +61,7 @@ export const Banner = () => {
                     <span className="text-success">Full-name:</span> Sheraliyev Islomjon <br />     
                     <span className="text-success">Date of birth:</span> 03.11.2007 <br />
                     <span className="text-success">Place of residence:</span> Uzbekistan, Tashkent city <br />
-                    <span className="text-success">Telegram</span>: @IT_muffin <br />
+                    <span className="text-success">Telegram:</span> @IT_muffin <br />
                   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
